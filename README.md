@@ -9,6 +9,8 @@
 #### 🌱读代码
 - [x] [diskv](https://link.zhihu.com/?target=https%3A//github.com/peterbourgon/diskv) - 支持磁盘的 key-value 存储
 - [ ] [rqlite](https://link.zhihu.com/?target=https%3A//github.com/rqlite/rqlite)基于 SQLite 构建的轻量级、分布式关系数据库
+- [ ] k8s
+- [ ] 区块链
 - [ ] 《机器学习实战》在读
 
 - [可学习的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
