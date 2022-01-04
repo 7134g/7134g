@@ -7,6 +7,7 @@
   - [leak](loophole)
 
 #### 🌱读代码
+- [x] [go-diff](https://github.com/sergi/go-diff) 文本比对
 - [x] [diskv](https://link.zhihu.com/?target=https%3A//github.com/peterbourgon/diskv) - 支持磁盘的 key-value 存储
 - [ ] [rqlite](https://link.zhihu.com/?target=https%3A//github.com/rqlite/rqlite)基于 SQLite 构建的轻量级、分布式关系数据库
 - [ ] k8s
