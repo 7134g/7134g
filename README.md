@@ -1,10 +1,10 @@
 #### [杂物库](https://github.com/7134g/m_troops)
 
 - 编程语言
-  - [python doc](py/README.md)
-  - [go doc](go/README.md)
+  - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
+  - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 - 其他
-  - [leak](loophole)
+  - [leak](https://github.com/7134g/m_troops/tree/master/loophole)
 
 #### 🌱读代码
 - [x] [go-diff](https://github.com/sergi/go-diff) 文本比对
