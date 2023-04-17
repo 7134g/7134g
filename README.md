@@ -10,7 +10,7 @@
 - [x] [go-diff](https://github.com/sergi/go-diff) 文本比对
 - [x] [diskv](https://link.zhihu.com/?target=https%3A//github.com/peterbourgon/diskv) - 支持磁盘的 key-value 存储
 - [ ] [rqlite](https://link.zhihu.com/?target=https%3A//github.com/rqlite/rqlite)基于 SQLite 构建的轻量级、分布式关系数据库
-- [x] [dns](https://github.com/miekg)dns解析
+- [x] [dns](https://github.com/miekg) DNS解析
 - [ ] k8s
 - [ ] 区块链
 - [ ] 《机器学习实战》在读
