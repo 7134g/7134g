@@ -1,0 +1,70 @@
+·代码搜索注意事项
+由于搜索代码的复杂性,有一些搜索限制:
+·默认搜索是从master分支搜索代码。
+·只有小于384 KB的文件是可搜索的。
+·在搜索源代码时，必须至少包含一个搜索词。
+例如，搜索:language:go 是无效的，而 amazing language:go 则是有效的
+·在大多数情况下，搜索结果可以显示同一个文件中的两个片段，
+但是在文件中可能会有更多的结果。
+在搜索查询中，不能使用下列通配符字符：
+, : ; / \ ` ' " = * ! ? # $ & + ^ | ~ < > ( ) { } [].
+搜索只会忽略这些符号。
+
+1、指定搜索方式
+·搜索文件中有octocat的代码
+octocat in:file.
+·搜索路径中有octocat的代码
+octocat in:path
+·搜索路径中有octocat的代码或者文件中有octocat的代码
+octocat in:file,path
+·搜索readme中有octocat的代码
+octocat in:readme
+·搜索description中有octocat的代码
+octocat in:description
+搜索项目名中含有octocat的代码
+octocat in:name
+
+·搜索用scss写的包含display的代码
+display language:scss
+·搜索包含Integer的字段
+Integer
+
+
+2、通过语言搜索代码
+·匹配关键字“element"且搜索大小为100字节的xml代码
+element language:xml size:100
+·搜索mozilla用户下用markdown写的代码
+user:mozilla language:markdown
+
+
+3、通过fork的数量或者是否有父节点的方式搜索
+·搜索用java写的 android相关的代码并且被fork过
+android language:java fork:true
+·搜索与function相关的python代码，文件大小超过10kb
+function size:>10000 language:python
+
+
+4、按照目录结构搜索
+·在app/public directory目录下搜索console关键字
+console path:app/public language:javascript
+·搜索cgi-bin目录下包含form的perl代码
+form path:cgi-bin language:perl
+
+
+5、通过文件名搜索
+·搜索 文件名匹配*.vimrc* 并且包含commands的代码
+Finds *.vimrc* files with the word "commands" in them.
+·在test目录中搜索包含minitest且文件名匹配"*test_helper*"的代码
+minitest filename:test_helper path:test language:ruby
+
+
+6、根据扩展名来搜索代码
+·搜索cgi-bin目录下以pm为扩展名的代码
+form path:cgi-bin extension:pm
+·搜索超过200kb包含icon的css代码
+icon size:>200000 extension:css
+
+
+7、通过用户或者组织来查找
+·查找github用户中以rb为扩展的代码
+user:github extension:rb
