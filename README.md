@@ -19,14 +19,12 @@
 
 #### 库
 - [Go中的猴子补丁](mock/gomonkey.md)
-- [夏普率](doc/sharpe.md)
-- [存储相关的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
 - [语法解析器](https://github.com/mna/pigeon)
 
 #### 其他
 - [github搜索用法](github.txt)
 - [windows注册表及服务](system/windows.md)
-
+- [夏普率](doc/sharpe.md)
 
 ### [杂物库](https://github.com/7134g/m_troops)
 
@@ -35,7 +33,8 @@
 
 - 树莓派
   - [墨水屏电影](https://shumeipai.nxez.com/2020/10/13/how-to-build-a-very-slow-movie-player-in-2020.html)
-  
+- [存储相关的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
+
 </details>
 
 <!--
