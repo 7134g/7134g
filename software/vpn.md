@@ -9,3 +9,4 @@
 
 ### shadowsocks
 - [rss](https://github.com/shadowsocksrr/shadowsocks-rss)
+- [go版本](https://github.com/shadowsocks/go-shadowsocks2)
