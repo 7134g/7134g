@@ -36,10 +36,11 @@
 #### 其他
   <details>
   <summary>验证码</summary>
+
+  - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
+  - [pdf文字识别](https://github.com/breezedeus/CnOCR)
+  - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
   
-    - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
-    - [pdf文字识别](https://github.com/breezedeus/CnOCR)
-    - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
   </details>
   
 - [github搜索用法](github.txt)
