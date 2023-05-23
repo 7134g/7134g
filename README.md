@@ -25,6 +25,7 @@
   - [sql注入](leak/sql.md)
   - [脱壳](leak/脱壳.txt)
   - [chrome](leak/chrome.md)
+  - [渗透依赖库](leak/库.md)
 
 #### 库
 - [windows注册表及服务](system/windows.md)
