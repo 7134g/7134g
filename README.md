@@ -1,3 +1,5 @@
+#### [杂物库](https://github.com/7134g/m_troops)
+
 #### 编程语言
   - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
@@ -32,17 +34,22 @@
 - [Go中的猴子补丁](mock/gomonkey.md)
 
 #### 其他
+  <details>
+  <summary>验证码</summary>
+  
+    - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
+    - [pdf文字识别](https://github.com/breezedeus/CnOCR)
+    - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
+  </details>
+  
 - [github搜索用法](github.txt)
 - [夏普率](doc/sharpe.md)
 - [vpn](software/vpn.md)
 - [阅读app](software/应用.md)
 - [磁力种子](software/磁力种子.md)
-- 验证码
-  - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
-  - [pdf文字识别](https://github.com/breezedeus/CnOCR)
-  - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
 
-### [杂物库](https://github.com/7134g/m_troops)
+
+
 
 <details>
 <summary>todo list</summary>
