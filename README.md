@@ -3,13 +3,22 @@
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
 #### 协议
-- [tcp/ip](proto/tcp.md)
-- [udp](proto/udp.md)
-- [http](proto/http.md)
-- [websocket](https://github.com/HJava/myBlog/tree/master/WebSocket%20%E5%8D%8F%E8%AE%AE%20RFC%20%E6%96%87%E6%A1%A3)
+- 传输层
+  - [tcp/ip](proto/tcp.md)
+    - 应用层
+    - [http](proto/http.md)
+    - [websocket](https://github.com/HJava/myBlog/tree/master/WebSocket%20%E5%8D%8F%E8%AE%AE%20RFC%20%E6%96%87%E6%A1%A3)
+    - [mqtt](proto/mqtt.md)
+  - [udp](proto/udp.md)
+    - [DNS]()
+    - [DHCP]()
+  - [sctp](proto/sctp.md)
+    - [WebRTC](https://github.com/pion/webrtc)
+
+- 视频/音频协议
 - [m3u8](https://www.52pojie.cn/thread-1686788-1-1.html)
-- [sctp](proto/sctp.md)
-- [mqtt](proto/mqtt.md)
+
+
 
 #### 渗透
   - [漏洞测试站点](leak/leak_test.md)
@@ -18,13 +27,19 @@
   - [chrome](leak/chrome.md)
 
 #### 库
+- [windows注册表及服务](system/windows.md)
 - [Go中的猴子补丁](mock/gomonkey.md)
 - [语法解析器](https://github.com/mna/pigeon)
+- [HTTP拦截器](https://github.com/google/martian)
+- [js核心](https://github.com/robertkrimen/otto)
 
 #### 其他
 - [github搜索用法](github.txt)
-- [windows注册表及服务](system/windows.md)
 - [夏普率](doc/sharpe.md)
+- 验证码
+  - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
+  - [pdf文字识别](https://github.com/breezedeus/CnOCR)
+  - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
 
 ### [杂物库](https://github.com/7134g/m_troops)
 
@@ -34,6 +49,7 @@
 - 树莓派
   - [墨水屏电影](https://shumeipai.nxez.com/2020/10/13/how-to-build-a-very-slow-movie-player-in-2020.html)
 - [存储相关的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
+- [Telegram使用的协议]
 
 </details>
 
