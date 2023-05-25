@@ -4,7 +4,9 @@
 
 
 ### clash
-- https://github.com/Dreamacro/clash
+- [core](https://github.com/Dreamacro/clash)
+- [windows](https://github.com/Fndroid/clash_for_windows_pkg/tags)
+- [android](https://github.com/Kr328/ClashForAndroid/tags)
 
 
 ### shadowsocks
