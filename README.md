@@ -29,14 +29,11 @@
   - [chrome](leak/chrome.md)
   - [渗透依赖库](leak/库.md)
 
-#### 库
-- [windows注册表及服务](system/windows.md)
-- [Go中的猴子补丁](mock/gomonkey.md)
 
 #### 其他
   <details>
   <summary>验证码</summary>
-
+  
   - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
   - [pdf文字识别](https://github.com/breezedeus/CnOCR)
   - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
@@ -48,7 +45,7 @@
 - [vpn](software/vpn.md)
 - [阅读app](software/应用.md)
 - [磁力种子](software/磁力种子.md)
-
+- [Go中的猴子补丁](mock/gomonkey.md)
 
 
 
