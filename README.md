@@ -57,7 +57,7 @@
   - [墨水屏电影](https://shumeipai.nxez.com/2020/10/13/how-to-build-a-very-slow-movie-player-in-2020.html)
 - [存储相关的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
 - [Telegram使用的协议](https://github.com/9seconds/mtg)
-
+- [go-zero-looklook](https://github.com/Mikaelemmmm/go-zero-looklook)
 
 <!--
 **7134g/7134g** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
