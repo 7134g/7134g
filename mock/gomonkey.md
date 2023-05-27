@@ -26,7 +26,7 @@ func main() {
 
 当编译并通过[Hopper](https://www.hopperapp.com/)查看时，上述代码将产生这样的汇编代码。
 
-![h1](../img/hopper-1.png)
+![h1](../img/mock/hopper-1.png)
 
 我将参考屏幕左侧显示的各种指令的地址。
 我们的代码从程序`main.main`开始，其中指令`0x2010`至`0x2026`设置了堆栈。你可以在[这里](https://dave.cheney.net/2013/06/02/why-is-a-goroutines-stack-infinite)
@@ -58,11 +58,11 @@ func main() {
 当我在我的机器上运行这段代码时，我得到了`0x102c38`，这是一个与我们的代码毫不相干的地址!
 当反汇编时，这就是上面第11行的情况。
 
-![h2](../img/hopper-2.png)
+![h2](../img/mock/hopper-2.png)
 
 这引用了一个叫`main.a.f`的东西，当我们看这个位置的时候，同时也看到了这个。
 
-![h3](../img/hopper-3.png)
+![h3](../img/mock/hopper-3.png)
 
 啊哈！`main.a.f`在`0x102c38`处，包含`0x2000`，也就是`main.a`的位置。看来f不是一个函数的指针，而是一个指向函数的指针。
 让我们修改代码来弥补这一点。
@@ -99,7 +99,7 @@ func main() {
 
 当我们反汇编这个时，我们会得到以下结果。
 
-![h4](../img/hopper-4.png)
+![h4](../img/mock/hopper-4.png)
 
 `main.a.f`被加载到`rdx`中，然后不管`rdx`指向什么，都被加载到`rbx`中，然后被调用。
 函数值的地址总是被加载到`rdx`中，被调用的代码可以用它来加载任何可能需要的额外信息。

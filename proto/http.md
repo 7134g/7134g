@@ -1,7 +1,7 @@
 # [mozilla doc](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
 
 ## 协议结构
-![](../img/http_proto.webp)
+![](../img/http/http_proto.webp)
 
 ## header
 - GET 
