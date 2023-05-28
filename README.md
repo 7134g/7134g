@@ -5,21 +5,19 @@
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
 ### 协议
-- 传输层
-  - [tcp/ip](proto/tcp.md)
-    - 应用层
+  - [tcp](proto/tcp.md)
       - [http](proto/http.md)
       - [websocket](https://github.com/HJava/myBlog/tree/master/WebSocket%20%E5%8D%8F%E8%AE%AE%20RFC%20%E6%96%87%E6%A1%A3)
       - [mqtt](proto/mqtt.md)
   - [udp](proto/udp.md)
-    - [DNS]()
-    - [DHCP]()
+    - [snmp 网管协议](proto/snmp.md)
+    - [DNS 解析地址](/)
+    - [DHCP 分配ip地址](/)
   - [sctp](proto/sctp.md)
-    - [WebRTC](https://github.com/pion/webrtc)
-  - [snmp](proto/snmp.md)
+    - [WebRTC 视频流](https://github.com/pion/webrtc)
 
-- 视频/音频协议
-  - [m3u8](proto/m3u8.md)
+  - 视频/音频协议
+    - [m3u8](proto/m3u8.md)
 
 
 
