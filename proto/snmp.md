@@ -69,6 +69,52 @@ snmp七种请求类型：
 							
 
 
+snmp包的GetRequest请求例子：
+```yaml
+{
+  "ip-header": {...},
+  "udp-header": {...},
+  "version": 3,
+  "msg-flags": "authPriv",
+  "security-model": 3,
+  "security-name": "myuser",
+  "context-engine-id": "1234567890",
+  "context-name": "mycontext",
+  "pdu-type": "get-request",
+  "request-id": 54321,
+  "error-status": 0,
+  "error-index": 0,
+  "variable-bindings": [
+    {
+      "name": "sysDescr.0",
+      "value": null
+    },
+    {
+      "name": "sysUpTime.0",
+      "value": null
+    }
+  ],
+  "authentication-parameters": "<hashed-authentication-password>",
+  "privacy-parameters": "<encrypted-privacy-password>"
+}
+
+
+IP header 和 UDP header 是标准的网络层和传输层协议头部。
+version 值为3，表示使用SNMPv3版本。
+msg-flags 表示消息标志位，在本例中值为"authPriv"，表示进行了认证（authentication）和加密（privacy）。
+security-model 值为3，表示使用 USM 安全模型。
+security-name 字段指定了用于身份验证和授权的用户名称.
+context-engine-id 和 context-name 指定了请求的上下文。
+pdu-type 值为"get-request"，表示这是一个SNMP GET 请求。
+request-id 是请求标识符，SNMP代理应该将其包含在响应中以便识别此操作的唯一性。
+error-status 和 error-index 字段用于响应错误信息。
+variable-bindings 列出了要获取的变量列表。在这里我们请求了 "sysDescr.0" 和 "sysUpTime.0" 这两个系统描述变量。
+authentication-parameters 和 privacy-parameters 用于存储经过哈希和加密处理后的密码，以保证通信过程的安全性。
+```
+
+
+
+
 
 #### 其他
 安全模型（Security Model）：用于指定SNMP消息的安全模型，常用的安全模型有SNMPv1/v2c兼容模型、
