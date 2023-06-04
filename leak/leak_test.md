@@ -4,6 +4,8 @@
 - demo.testfire.net
 - demo.aisec.cn
 
+- [测试下载速度](http://cachefly.cachefly.net/10mb.test) 
+
 
 #### 靶机
 - 部署 https://baijiahao.baidu.com/s?id=1707799842720217922&wfr=spider&for=pc
