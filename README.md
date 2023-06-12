@@ -1,11 +1,10 @@
 ### 方案
-- [日志](design/日志系统.md)
-
-
-### [杂物库](https://github.com/7134g/m_troops)
+  - [日志](design/日志系统.md)
 
 
 ### 编程语言
+  - [go和py的杂物库](https://github.com/7134g/m_troops)
+
   - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
