@@ -45,6 +45,7 @@
 
 ### 其他
 
+- [ai](doc/ai.md)
 - [github搜索用法](github.txt)
 - [vpn](software/vpn.md)
 - [安卓应用app](software/应用.md)
