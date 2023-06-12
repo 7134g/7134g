@@ -1,8 +1,14 @@
+## 方案
+- [日志](design/日志系统.md)
+
+
 ### [杂物库](https://github.com/7134g/m_troops)
+
 
 ### 编程语言
   - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
+
 
 ### 协议
   <details>
@@ -35,9 +41,6 @@
   - [m3u8](proto/m3u8.md)
 
   </details>
-
-## 方案
-- [日志](design/日志系统.md)
 
 ### 其他
 
