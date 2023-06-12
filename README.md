@@ -45,7 +45,7 @@
 
 - [github搜索用法](github.txt)
 - [vpn](software/vpn.md)
-- [阅读app](software/应用.md)
+- [安卓应用app](software/应用.md)
 - [磁力种子](software/磁力种子.md)
 
 <details>
