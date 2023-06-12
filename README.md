@@ -1,7 +1,3 @@
-### 方案
-  - [日志](design/日志系统.md)
-
-
 ### 编程语言
   - [go和py的杂物库](https://github.com/7134g/m_troops)
 
@@ -40,6 +36,12 @@
   - [m3u8](proto/m3u8.md)
 
   </details>
+
+### 方案
+- [日志](design/日志系统.md)
+- [链路追踪](design/链路追踪.md)
+- [服务监控](design/服务监控.md)
+- [分布式事务](design/分布式事务.md)
 
 ### 其他
 
