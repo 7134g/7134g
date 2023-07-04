@@ -1,0 +1,34 @@
+<keymap version="1" name="Windows copy Proper Redo" parent="$default">
+    <action id="$Redo">
+        <keyboard-shortcut first-keystroke="shift ctrl z" />
+        <keyboard-shortcut first-keystroke="shift alt back_space" />
+        <keyboard-shortcut first-keystroke="ctrl y" />
+    </action>
+    <action id="CopyElement" />
+    <action id="DatabaseView.CopyTable" />
+    <action id="EditorDeleteLine" />
+    <action id="Find">
+        <keyboard-shortcut first-keystroke="ctrl f" />
+    </action>
+    <action id="FindInPath">
+        <keyboard-shortcut first-keystroke="alt f" />
+    </action>
+    <action id="Graph.ApplyCurrentLayout" />
+    <action id="Move" />
+    <action id="NextDiff" />
+    <action id="ReplaceInPath">
+        <keyboard-shortcut first-keystroke="alt r" />
+    </action>
+    <action id="Resume">
+        <keyboard-shortcut first-keystroke="f8" />
+    </action>
+    <action id="StepInto">
+        <keyboard-shortcut first-keystroke="f6" />
+    </action>
+    <action id="StepOut">
+        <keyboard-shortcut first-keystroke="f7" />
+    </action>
+    <action id="StepOver">
+        <keyboard-shortcut first-keystroke="f5" />
+    </action>
+</keymap>

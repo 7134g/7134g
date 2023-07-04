@@ -1,0 +1,58 @@
+celery : 异步消息管理，静态页面
+	启动work部分：celery -A celery_task worker -l info
+	nginx配置信息
+	http{
+		listen			80;
+		server_name		IP地址/域名;
+		location /static {
+			alias 静态文件夹路径;
+		}
+		location / {
+			root 静态文件夹路径;
+			index 静态化的页面名.html 静态化的页面名.htm
+		}
+		error_page		500 502 503 504 /50x.html;
+		location = /50px.html {
+			root html;
+		}
+	}
+
+
+fastDFS : 海量存储，储存扩展，文件去重
+	nginx配置信息
+	http{
+		listen			端口号;
+		server_name		IP地址/域名;
+		location 		~/group[0~9]/ {
+			ngx_fastdfs_module;
+		}
+		error_page		500 502 503 504 /50x.html;
+		location = /50px.html {
+			root html;
+		}
+	}
+
+
+SSL：
+	nginx配置信息
+	server {
+		listen 			443 ssl;
+		server_name		IP地址/域名;
+		root html;
+		ssl_certificate   /website/ssl/abersheeran.com.pem;
+		ssl_certificate_key  /website/ssl/abersheeran.com.key;
+		ssl_session_timeout 5m;
+		ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
+		ssl_protocols TLSv1 TLSv1.1 TLSv1.2 SSLv2 SSLv3;
+		ssl_prefer_server_ciphers on;
+		location / {
+					proxy_pass http://127.0.0.1:8765;
+
+					#配置Nginx支持webSocket开始
+					proxy_set_header Host $http_host;
+
+					proxy_http_version 1.1;
+					proxy_set_header Upgrade $http_upgrade;
+					proxy_set_header Connection "upgrade";
+		}
+	}

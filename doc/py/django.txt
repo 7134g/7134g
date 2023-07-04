@@ -1,0 +1,105 @@
+创建工程
+	django-admin startproject 项目名
+创建应用
+	django-admin startapp 应用名
+
+生成迁移
+	python3 manage.py makemigration
+执行迁移
+	python3 manage.py migrate
+
+创建后台管理员账号
+	python3 manage.py createsuperuser
+
+
+django数据库
+
+						通用属性
+			db_column='name' 	指定数据库中名字
+			default=0			指定默认值
+			null=False			非空约束，null为True时值可为空
+			blank=False			表单非空约束
+			db_index=False		设置索引
+			primary=False		设置主键
+			unique=False		唯一约束
+
+				数据类型
+	AutoField() 					主键
+	BooleanField() 					布尔值
+	NullBooleanField() 				布尔值、None
+	CharField(max_length=20) 		字符串
+	textField() 					大文本字符串，4000+
+	IntegerField() 					整型
+	FloatField() 					浮点型
+
+	DecimalField(max_digits=None,	财经精确,max_digits位数，
+			decimal_places=None) 	decimal_places保留小数位
+
+	DateField(auto_now=False,		日期,auto_now每次保持自动设置当前时间
+            auto_now_add=False,) 	auto_now_add自动设置第一次创建时的时间
+
+	TimeField()						日期,参数同DateField
+	DateTimeField()					日期时间,参数同DateField
+	FileField()						上传文件
+	ImageField()					上传图片
+
+
+
+
+单词理解
+urls 链接
+view 视图
+shortcuts 捷径
+contrib 构建
+decorators 装饰
+core 核心
+uploadedfile 上传文件
+
+from Django.conf import settings
+
+1. urls相关操作
+from django.urls import path, re_path(使用正则时使用), include
+from django.urls import reverse  // 注意reverse 和另一个reversed区别。前者要明确导入通过名称解析出地址，后者是built-in内置不用导入；两者功能也不一。
+
+2. HttpResponse生成
+from django.shortcuts import render, HttpResponse, redirect
+from django.http import JsonResponse // 响应一个content-type：text/json 返回一个json响应报文,相应的浏览器端也不用在对json反解
+
+3. 组件auth
+from django.contrib import auth  //contrib 意味：构件
+from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
+
+4. 组件forms
+from django import forms
+from django.forms import widgets
+from django.core.exceptions import ValidationError  // django的异常定义都在django.core.exceptions模块中，该异常用于自定义钩子。
+from django.forms import ModelForm  // 如果一个form的字段数据是被用映射到一个django models.那么一个ModelForm可以帮助你节约很多开发时间。因为它将构建一个form实例，连同构建适当的field和field attributes，利用这些构建信息，都来自一个Model class.
+from django.core.files.uploadedfile import SimpleUploadedFile
+
+5. 邮件组件
+from django.core.mail import send_mail
+
+6. model组件
+from django.db import models
+from django.db.models import F, Q
+from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import User
+from django.db import transaction  # 利用model做数据库的事务操作
+
+7. 分页器相关
+from django.core import paginator
+
+8. django admin site相关
+from django.contrib import admin
+from django.contrib.admin import ModelAdmin
+
+9. view 相关
+from django.view import View  # 用于media访问内置视图
+
+10. 中间件
+from django.utils.deprecation import MiddlewareMixin
+
+11. template模版相关
+from django import template  # 自定义tag和filter需要用到
+
