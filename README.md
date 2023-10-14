@@ -4,6 +4,17 @@
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
 
+### 小工具
+
+-  [广播例子](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
+-  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)()
+-  [rpc相关连接](https://github.com/7134g/m_troops/blob/master/go/project/rpc)
+-  [生成markdown文档](https://github.com/7134g/m_troops/blob/master/go/project/gen_markdown)
+-  [mqtt客户端连接](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/client.go)
+-  [暴力破解zip](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode_zip/main.go)
+-  [tcp服务端和客户端](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
+
+
 ### 协议
   <details>
   <summary> tcp </summary>
@@ -43,11 +54,6 @@
 
   </details>
 
-### 方案
-- [日志](design/日志系统.md)
-- [链路追踪](design/链路追踪.md)
-- [服务监控](design/服务监控.md)
-- [分布式事务](design/分布式事务.md)
 
 ### 其他
 
@@ -58,6 +64,17 @@
 - [磁力种子](software/磁力种子.md)
 
 <details>
+<summary> 方案 </summary>
+
+- [日志](design/日志系统.md)
+- [链路追踪](design/链路追踪.md)
+- [服务监控](design/服务监控.md)
+- [分布式事务](design/分布式事务.md)
+
+</details>
+
+
+<details>
 <summary> 渗透 </summary>
 
 - [漏洞测试站点](doc/leak/leak_test.md)
@@ -65,20 +82,11 @@
 - [脱壳](doc/leak/脱壳.txt)
 - [chrome](doc/leak/chrome.md)
 - [渗透依赖库](doc/leak/库.md)
-
-</details>
-
- 
-
-<details>
-<summary>验证码</summary>
-
 - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
 - [pdf文字识别](https://github.com/breezedeus/CnOCR)
 - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
-
+  
 </details>
-
 
 
 <details>
@@ -88,7 +96,6 @@
   - [墨水屏电影](https://shumeipai.nxez.com/2020/10/13/how-to-build-a-very-slow-movie-player-in-2020.html)
 - [存储相关的开源项目](https://github.com/gostor/awesome-go-storage/blob/master/README.md)
 - [Telegram使用的协议](https://github.com/9seconds/mtg)
-- [go-zero-looklook](https://github.com/Mikaelemmmm/go-zero-looklook)
   
 </details>
 
