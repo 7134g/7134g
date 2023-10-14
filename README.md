@@ -7,7 +7,7 @@
 ### 小工具
 
 -  [广播例子](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
--  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)()
+-  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
 -  [rpc相关连接](https://github.com/7134g/m_troops/blob/master/go/project/rpc)
 -  [生成markdown文档](https://github.com/7134g/m_troops/blob/master/go/project/gen_markdown)
 -  [mqtt客户端连接](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/client.go)
