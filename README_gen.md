@@ -77,7 +77,7 @@
 - [坑](doc/面试/坑.md)
 - [数据结构](doc/面试/数据结构.md)
 - [缓存](doc/面试/缓存.md)
-- [go 问题](doc/面试/go 问题.md)
+- [go 问题](doc/面试/go%20问题.md)
 - [kafka](doc/面试/kafka.md)
 - [redis](doc/面试/redis.md)
 - [分布式锁](doc/面试/分布式锁.md)
