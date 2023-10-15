@@ -1,23 +1,4 @@
 
-
-## design
-
-- [05-民宿服务](design/05-民宿服务.md)
-- [日志系统](design/日志系统.md)
-- [02-nginx网关](design/02-nginx网关.md)
-- [08-消息-延迟-定时队列](design/08-消息-延迟-定时队列.md)
-- [10-错误处理](design/10-错误处理.md)
-- [分布式事务](design/分布式事务.md)
-- [04-用户服务](design/04-用户服务.md)
-- [07-支付服务](design/07-支付服务.md)
-- [15-发布服务到k8s](design/15-发布服务到k8s.md)
-- [服务监控](design/服务监控.md)
-- [03-鉴权服务](design/03-鉴权服务.md)
-- [06-订单服务](design/06-订单服务.md)
-- [14-部署环境搭建](design/14-部署环境搭建.md)
-- [链路追踪](design/链路追踪.md)
-
-
 ## doc
 
 - [ai](doc/ai.md)
