@@ -49,13 +49,17 @@
 <details>
 <summary> 小工具 </summary>
 
--  [广播例子](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
--  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
--  [rpc相关连接](https://github.com/7134g/m_troops/blob/master/go/project/rpc)
--  [生成markdown文档](https://github.com/7134g/m_troops/blob/master/go/project/gen_markdown)
--  [mqtt客户端连接](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/client.go)
--  [暴力破解zip](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode_zip/main.go)
--  [tcp服务端和客户端](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
+- [tcp简易命令工具](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
+- [暴力破解压缩包](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode/README.md)
+- [去除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
+- [匿名邮件](https://github.com/7134g/m_troops/blob/master/go/project/stmp/README.md)
+- [切割合并文件](https://github.com/7134g/m_troops/blob/master/go/project/split_merge_file/README.md)
+- [广播](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
+- [etcd_client](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
+- [rpc_client](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
+- [rpc_serve](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
+- [mqtt_client](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/README.md)
+- [夏普率](https://github.com/7134g/m_troops/blob/master/go/project/finance/sharpe.md)
 
 </details>
 
