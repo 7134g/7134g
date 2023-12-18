@@ -77,15 +77,21 @@
 <details>
 <summary> 渗透 </summary>
 
+  
+📖  
 - [漏洞测试站点](doc/leak/leak_test.md)
 - [sql注入](doc/leak/sql.md)
 - [脱壳](doc/leak/脱壳.txt)
 - [chrome](doc/leak/chrome.md)
 - [渗透依赖库](doc/leak/库.md)
+
+
+🔗  
 - [ai识别验证码（带带弟弟）](https://github.com/sml2h3/ddddocr)
 - [pdf文字识别](https://github.com/breezedeus/CnOCR)
 - [路牌文字识别](https://github.com/JaidedAI/EasyOCR)
-  
+- [漏扫](https://github.com/chaitin/xray)
+
 </details>
 
 
