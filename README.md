@@ -49,6 +49,7 @@
 <details>
 <summary> 小工具 </summary>
 
+- [m3u8和mp4视频下载](https://github.com/7134g/go_video)
 - [tcp简易命令工具](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
 - [暴力破解压缩包](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode/README.md)
 - [去除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
