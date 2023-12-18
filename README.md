@@ -3,18 +3,6 @@
   - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
-
-### 小工具
-
--  [广播例子](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
--  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
--  [rpc相关连接](https://github.com/7134g/m_troops/blob/master/go/project/rpc)
--  [生成markdown文档](https://github.com/7134g/m_troops/blob/master/go/project/gen_markdown)
--  [mqtt客户端连接](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/client.go)
--  [暴力破解zip](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode_zip/main.go)
--  [tcp服务端和客户端](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
-
-
 ### 协议
   <details>
   <summary> tcp </summary>
@@ -55,28 +43,25 @@
   </details>
 
 
-### 其他
+### 模块
 
-- [ai](doc/ai.md)
-- [github搜索用法](doc/github.txt)
-- [vpn](software/vpn.md)
-- [安卓应用app](software/应用.md)
-- [磁力种子](software/磁力种子.md)
 
 <details>
-<summary> 方案 </summary>
+<summary> 小工具 </summary>
 
-- [日志](design/日志系统.md)
-- [链路追踪](design/链路追踪.md)
-- [服务监控](design/服务监控.md)
-- [分布式事务](design/分布式事务.md)
+-  [广播例子](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
+-  [删除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
+-  [rpc相关连接](https://github.com/7134g/m_troops/blob/master/go/project/rpc)
+-  [生成markdown文档](https://github.com/7134g/m_troops/blob/master/go/project/gen_markdown)
+-  [mqtt客户端连接](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/client.go)
+-  [暴力破解zip](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode_zip/main.go)
+-  [tcp服务端和客户端](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
 
 </details>
 
 
 <details>
 <summary> 渗透 </summary>
-
   
 📖  
 - [漏洞测试站点](doc/leak/leak_test.md)
@@ -93,6 +78,16 @@
 - [漏扫](https://github.com/chaitin/xray)
 
 </details>
+
+
+
+### 其他
+
+- [ai](doc/ai.md)
+- [github搜索用法](doc/github.txt)
+- [vpn](software/vpn.md)
+- [安卓应用app](software/应用.md)
+- [磁力种子](software/磁力种子.md)
 
 
 <details>
