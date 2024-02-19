@@ -11,6 +11,7 @@
   - [http](scheme/http.md)
   - [websocket](https://github.com/HJava/myBlog/tree/master/WebSocket%20%E5%8D%8F%E8%AE%AE%20RFC%20%E6%96%87%E6%A1%A3)
   - [mqtt](scheme/mqtt.md)
+  - [vmess](https://www.v2ray.com/developer/protocols/vmess.html)
   
   </details>
   
@@ -34,7 +35,8 @@
 
   <details>
   <summary> 视频/音频协议 </summary>
-  
+
+  - [ffmpeg](scheme/ffmpeg.md)
   - [sctp](scheme/sctp.md)
   - [WebRTC 视频流](https://github.com/pion/webrtc)
   - [http_flv](/)
