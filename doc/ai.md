@@ -11,6 +11,3 @@
 - [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
 - [FastChat](https://github.com/lm-sys/FastChat)
 
-
-## 验证码
-- [带带弟弟OCR](https://github.com/sml2h3/ddddocr)
