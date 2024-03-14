@@ -11,14 +11,13 @@
 
 - [m3u8和mp4视频下载](https://github.com/7134g/go_video)
 - [tcp简易命令工具](https://github.com/7134g/m_troops/blob/master/go/project/tcpDialAndServe/README.md)
+- [rpc简易命令工具](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
 - [暴力破解压缩包](https://github.com/7134g/m_troops/blob/master/go/project/recursion_decode/README.md)
 - [去除重复文件](https://github.com/7134g/m_troops/blob/master/go/project/duplication/README.md)
 - [匿名邮件](https://github.com/7134g/m_troops/blob/master/go/project/stmp/README.md)
 - [切割合并文件](https://github.com/7134g/m_troops/blob/master/go/project/split_merge_file/README.md)
 - [广播](https://github.com/7134g/m_troops/blob/master/go/project/broadcast/main.go)
 - [etcd_client](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
-- [rpc_client](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
-- [rpc_serve](https://github.com/7134g/m_troops/blob/master/go/project/rpc/README.md)
 - [mqtt_client](https://github.com/7134g/m_troops/blob/master/go/project/mqtt/README.md)
 - [夏普率](https://github.com/7134g/m_troops/blob/master/go/project/finance/sharpe.md)
 
