@@ -1,5 +1,4 @@
 ### 编程语言
-  - [目录](README_gen.md)
   - [python doc](https://github.com/7134g/m_troops/blob/master/py/README.md)
   - [go doc](https://github.com/7134g/m_troops/blob/master/go/README.md)
 
