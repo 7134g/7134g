@@ -8,6 +8,9 @@
 - [windows](https://github.com/Fndroid/clash_for_windows_pkg/tags)
 - [android](https://github.com/Kr328/ClashForAndroid/tags)
 
+### clash meta
+- [android](https://github.com/MetaCubeX/ClashMetaForAndroid)
+- [pc](https://github.com/MetaCubeX/clash-verge)
 
 ### shadowsocks
 - [rss](https://github.com/shadowsocksrr/shadowsocks-rss)
